@@ -1,0 +1,78 @@
+body { 
+    margin: 0px;
+}
+
+main {
+    background:url(https://images.unsplash.com/uploads/1413387158190559d80f7/6108b580?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80) no-repeat center center fixed, linear-gradient(90deg, rgba(0, 5, 5, 1), rgba(100, 50, 0, 0.5));
+background-size: cover; 
+height: 100vh;
+    background-blend-mode: overlay;
+    font-family: "DM Sans", sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: #000 0 0 8px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer {
+    height: 200px;
+    background-color: #000202;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    transition: transform ease-in .5s, opacity ease-out 1s;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 5px;
+    transition: width 0.5s;
+}
+
+button:hover {
+  width: 220px;
+}
+
+.container {
+    
+    max-width: 60%;
+    padding: 40px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: #012 0 10px 40px;
+    border-radius: 20px;
+
+}
+
+
+#increment-btn {
+    background: linear-gradient(0deg, rgba(240, 100, 0, 1), rgba(200, 130, 0, 1));
+    box-shadow: #510 0 0 20px;
+    margin-bottom: 15px;
+}
+
+#save-btn {
+    background: linear-gradient(0deg, rgba(0, 10, 20, 1), rgba(0, 30, 60, 1));
+    box-shadow: #013 0 0 10px;
+    margin-bottom: 5px;
+}
+
+ #icon {
+    
+    width: 60px;
+    filter: drop-shadow(#840 0 0 10px);
+ }
